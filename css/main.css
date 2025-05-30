@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: white;
   margin: 0;
   padding: 0;
 }
@@ -13,6 +13,21 @@ h5,
 h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
 }
+
+.skip-links {
+  position: sticky;
+  top: -50px;
+  left: 0;
+  background: white;
+  color: black;
+  padding: 2rem;
+  z-index: 100;
+  text-decoration: none;
+}
+.skip-links:focus {
+  top: 0;
+}
+
 
 .container {
   max-width: 1080px;
